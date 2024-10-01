@@ -14,3 +14,14 @@ def factorielle(n):
          fact = fact*i
     return fact
 print (factorielle(8))
+
+
+
+
+
+
+def afficher_n_fois(ch,n):
+    if n>0:
+        for i in range(1,n+1):
+            print(f"{i}.{ch}")  
+print(afficher_n_fois('bonjour',8))
