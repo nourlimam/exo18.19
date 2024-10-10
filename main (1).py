@@ -73,4 +73,55 @@ def suite(n):
       u = 2*u+k
     return u
 print(suite(60))
+'''L=[]
+for k in range(1,101):
+  L+= [k]
+print (L)'''
+
+
+
+'''L=[]
+for k in range(1,101):
+    L.append(k)
+print (L)'''
+
+
+
+'''L=[]
+L=100*[0]
+for k in range(1,101):
+    L[k-1]=k
+print(L)'''
+
+
+
+'''L=[]
+for k in range(1,101):
+    L=L+[k*2]
+print(L)'''
+
+
+
+'''def carre(n):
+    carre = []
+    for k in range(1,n+1):
+        carre.append(k**2)
+    return carre
+print(carre(5))'''
+
+
+
+
+'''def carre_compr(n):
+    L=[k*2 for k in range(1,n+1)]
+    return L 
+
+print(carre_compr(1000))'''
+
+
+
+liste_1=[x for x in range(1,20,2)](liste)
+print(liste_1)
+liste_2=[x**2 for x in range(11)]
+print(liste_2)
     
